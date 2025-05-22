@@ -16,20 +16,6 @@ This project analyzes e-commerce store data focusing on monthly sales, profits, 
 
 ---
 
-## 📊 Key Insights
-
-* **Highest sales month:** \[Month name based on your data]
-* **Lowest sales month:** \[Month name]
-* **Category with highest sales:** \[Category name]
-* **Category with lowest sales:** \[Category name]
-* **Top sub-category by sales:** \[Sub-category name]
-* **Month with highest profit:** \[Month name]
-* **Category and sub-category profit leaders:** \[Categories and sub-categories with highest profit]
-* **Customer segment analysis:** \[Summary of segments with highest sales and profits]
-* **Sales to profit ratio:** \[Summary, e.g., categories or segments with best efficiency]
-
----
-
 ## 🛠 Methodology
 
 * **Data Source:** E-commerce transactional data including order dates, product categories/sub-categories, customer segments, sales amount, and profit figures.
