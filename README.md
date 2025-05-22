@@ -1,55 +1,59 @@
 # E-Commerce Sales and Profit Analysis
 
-This project analyzes e-commerce store data focusing on monthly sales, profits, product categories, and customer segments to provide comprehensive business insights.
+This project analyzes e-commerce transactional data using Python libraries such as NumPy, Pandas, and Plotly to provide interactive visualizations and actionable business insights.
 
 ---
 
 ## 🔎 Analysis Objectives
 
-1. Calculate monthly sales; identify months with highest and lowest sales.
-2. Analyze sales by product categories; determine categories with highest and lowest sales.
+1. Calculate monthly sales; identify highest and lowest sales months.
+2. Analyze sales by product categories; find categories with highest and lowest sales.
 3. Analyze sales by product sub-categories.
-4. Calculate monthly profit; identify the month with the highest profit.
-5. Analyze profit by product category and sub-category.
+4. Calculate monthly profit; identify the month with highest profit.
+5. Analyze profit by category and sub-category.
 6. Analyze sales and profit by customer segment.
 7. Calculate and analyze sales-to-profit ratio.
 
 ---
 
-## 🛠 Methodology
+## 🛠 Tools and Libraries Used
 
-* **Data Source:** E-commerce transactional data including order dates, product categories/sub-categories, customer segments, sales amount, and profit figures.
-* **Tools Used:** Python, Pandas, Matplotlib, Seaborn.
-* **Data Processing:**
-
-  * Data cleaning and validation
-  * Grouping and aggregation by month, category, sub-category, and customer segment
-  * Calculation of sales, profit, and sales-to-profit ratios
-* **Analysis:** Trend and comparative analysis to extract actionable insights.
+* **Data Manipulation:** `numpy`, `pandas`
+* **Data Visualization:** `plotly.express`, `plotly.graph_objects`, `plotly.colors`
+* **Visualization Style:** Dark theme (`plotly_dark` template set by `pio.templates.default`)
 
 ---
 
-## 📈 Visualizations
+## 📈 Methodology
+
+* Data imported and cleaned using Pandas and NumPy.
+* Aggregations and calculations performed to summarize sales, profit, and ratios by month, category, sub-category, and customer segment.
+* Interactive visualizations created with Plotly to enhance data exploration, including bar charts, line graphs, and ratio visualizations.
+* Default plotly theme set to dark mode for better visual contrast (`pio.templates.default = "plotly_dark"`).
 
 ---
 
-## 🔍 Conclusion
+## 🔍 Key Insights
 
-The analysis reveals sales and profit patterns that can guide inventory management, marketing focus, and customer targeting strategies to optimize revenue and profitability.
+* Monthly sales and profits trends identified with clear peaks and troughs.
+* Category and sub-category sales and profits ranked to spotlight best and worst performers.
+* Customer segments analyzed to understand their contribution to revenue and profitability.
+* Sales-to-profit ratio analyzed to assess efficiency across categories and segments.
 
 ---
 
 ## 👥 Contributors
 
 * Analyst: Prajna Chauhan
+* Tools: Python, Pandas, Plotly
 
 ---
 
-## 📂 How to Run
+## 📂 Usage
 
-* Load dataset into Python environment
-* Execute provided analysis scripts/notebooks
-* Review output charts and reports
+* Load your dataset into the Python environment.
+* Run the analysis scripts using the specified libraries.
+* Explore interactive visualizations generated with Plotly.
 
 ---
 
